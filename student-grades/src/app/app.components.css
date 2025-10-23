@@ -1,0 +1,20 @@
+.container {
+  width: 90%;
+  margin: auto;
+  text-align: center;
+}
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+input {
+  width: 60px;
+  text-align: center;
+}
+button {
+  margin-top: 20px;
+  padding: 10px 20px;
+  font-weight: bold;
+}

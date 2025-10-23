@@ -1,0 +1,24 @@
+<div class="container">
+  <h2>Student Grades Evaluation</h2>
+
+  <table border="1" cellpadding="10">
+    <tr>
+      <th>Student</th>
+      <th *ngFor="let subj of [1,2,3,4,5]">Subject {{subj}}</th>
+      <th>Average</th>
+      <th>Grade</th>
+    </tr>
+
+    <tr *ngFor="let student of students">
+      <td>Student {{student.id}}</td>
+      <td *ngFor="let mark of student.marks; let i=index">
+        <input type="number" [(ngModel)]="student.marks[i]" />
+      </td>
+      <td>{{student.average}}</td>
+      <td>{{student.grade}}</td>
+    </tr>
+  </table>
+
+  <br />
+  <button (click)="calculateAll()">Evaluate Grades</button>
+</div>
