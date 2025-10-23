@@ -1,0 +1,1 @@
+//create angular application code that will take input marks of 5 subjects for 10 students and display grades on evaluation condition....evaluation condition 1.A+ average >=90 2.A average >=75 and <90 3.B average >=60 and <75 c. average < 60 
