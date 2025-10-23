@@ -1,0 +1,6 @@
+.todo { max-width: 480px; margin: 16px; font-family: Arial, sans-serif; }
+.add-row { display: flex; gap: 8px; margin-bottom: 12px; }
+.add-row input { flex: 1; padding: 6px 8px; }
+.list { list-style: none; padding: 0; margin: 0; }
+.task-row { display: flex; justify-content: space-between; padding: 6px 8px; border-bottom: 1px solid #eee; }
+.del { background: transparent; border: none; color: #c00; cursor: pointer; }
